@@ -1,12 +1,16 @@
 .header{
     height: 100px;
     width: 100%;
-    background-color: deeppink;
+    background-color: rgb(0, 0, 0);
     display: flex;
+    
+    
 }
 .menu {
     display: flex;
     justify-content: space-around; 
+    width: 100%;
+    
 }
 a{
     text-decoration: none;
@@ -20,19 +24,20 @@ a{
 .nav{
     margin: 0px;
     width: 100%;
+    
+}
+.main{
+    color:rgba(255, 255, 255, 0.5);
 }
 
-.main{
-    color:black;
-}
 
 .foot {
     position: absolute;
 }
 .foter{
-    
+    border-top: 1px solid rgb(10, 10, 9);
     margin-top: auto;
-    background-color: chartreuse;
+    background-color: rgb(111, 112, 111);
     height: 100px;
     
     width: 100%;
@@ -44,19 +49,22 @@ a{
 .contact{
     display: flex;
     flex-direction: column;
+    
 }
 
-.parallax{
-    background: url(image/fon.jpg);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     
 
-}
 
+.pfooter{
+    margin: 0px;
+    font-size: 16px;
+}
+label {
+    color: rgb(0, 0, 0);
+}
+a {
+    color: white;
+}
 
 
 .page{
@@ -66,3 +74,7 @@ a{
     min-height: 100vh;
 
 }
+
+
+
+/* Основная часть контента*/
