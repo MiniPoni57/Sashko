@@ -47,7 +47,7 @@ a{
 }
 
 .parallax{
-    background: url(fon.jpg);
+    background: url(image/fon.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
