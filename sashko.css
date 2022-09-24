@@ -12,18 +12,18 @@
     width: 100%;
     
 }
-a{
-    text-decoration: none;
-}
+
 .a{
     margin-top: 40px;
     font-size: 20px ;
     font-family: sans-serif;
+    
 }
 
 .nav{
     margin: 0px;
     width: 100%;
+    
     
 }
 .main{
@@ -78,3 +78,6 @@ a {
 
 
 /* Основная часть контента*/
+
+
+/* слайдер  */
